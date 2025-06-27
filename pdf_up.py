@@ -1,7 +1,7 @@
 import pikepdf
 
 # Open the PDF
-pdf = pikepdf.open(r"F:\code_world\portfolio\portfolio\Nikita_Resume.pdf")
+pdf = pikepdf.open(r"F:\resume\nikita_chaubey.pdf")
 
 # Modify the Title in the metadata
 pdf.docinfo['/Title'] = 'Nikita Chaubey'
